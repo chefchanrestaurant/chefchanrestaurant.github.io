@@ -1,0 +1,176 @@
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width:175px;
+    background-color:rgb(255, 156, 156);
+    border: dotted;
+    cursor:crosshair;
+}
+li a{
+    display: block;
+    color:#000000;
+    padding: 8px 13px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    cursor:crosshair;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdownbutton {
+    background-color: rgb(212, 212, 212);
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border: solid;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(212, 212, 212);
+    min-width: 5px;
+    left: 0%;
+    border: solid;
+    cursor: crosshair;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative; /* Establishes a positioning context */
+}
+
+.map {
+    position: absolute; /* Enables absolute positioning */
+    top: 460px; /* Change this value to move the text box vertically */
+    left: 250px; /* Change this value to move the text box horizontally */
+    background-color:rgb(260, 259, 259);
+    border: hidden;
+}
+
+.newitems {
+    position: absolute; /* Enables absolute positioning */
+    top: 50px; /* Change this value to move the text box vertically */
+    left: 75%; /* Change this value to move the text box horizontally */
+    background-color:whitesmoke;
+    border-color:rgb(242, 255, 0);
+    border:solid;
+    width: 350px;
+    height: 300px;
+    padding: 10px
+}
+
+.newitems {
+    border-radius: 20px;
+}
+
+.stickytop {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+.stickynav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index:1000;
+  }
+
+#warning {
+    background-color: yellow;
+}
+
+#est {
+    size: 5px;
+}
+
+.appsection, .soupsection, .ricesection, .chowmeinsection, .chopsueysection, .chowmeifunsection {
+    border:3px solid;
+    border-color: rgb(255, 0, 0);
+    width: 75%;
+    height: max-content;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.lomeinsection, .eggfooyoungsection, .sweetandsoursection, .porksection, .beefsection, .chickensection {
+    border:3px solid;
+    border-color: rgb(255, 0, 0);
+    width: 75%;
+    height: max-content;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.seafoodsection, .traysection, .dietsection, .sidesection, .friedsection{
+    border:3px solid;
+    border-color: rgb(255, 0, 0);
+    width: 75%;
+    height: max-content;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.combosection{
+    border:3px solid;
+    border-color: rgb(255, 68, 0);
+    width: 75%;
+    height: max-content;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.lunchcombosection {
+    border:3px solid;
+    border-color: rgb(255, 0, 0);
+    width: 75%;
+    height: max-content;
+    text-align: left;
+    margin: 0 auto;
+}
+
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+th {
+    background-color: #ff4d00;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-align: center;
+}
