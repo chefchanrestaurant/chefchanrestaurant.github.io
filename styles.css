@@ -1,63 +1,44 @@
-ul {
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    width:175px;
-    background-color:rgb(255, 156, 156);
-    border: dotted;
-    cursor:crosshair;
-}
-li a{
-    display: block;
-    color:#000000;
-    padding: 8px 13px;
-    text-decoration: none;
-}
-li a:hover{
-    background-color: rgb(255, 255, 255);
-    color: rgb(255, 0, 0);
-    cursor:crosshair;
+.ccrfont {
+    color: rgba(255, 55, 0, 0.737);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+.font{
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 2px 2px rgb(255, 85, 0);
+}
+
+.hours {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 183, 0);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.navbutton, .nav, #backtotop{
+    background-color: #ff6726;
+    border:solid 1px;
+    border-radius: 10px;
+    color:black;
+    padding:2px 20px;
+    font-size:15px;   
 }
 
 
-.dropdownbutton {
-    background-color: rgb(212, 212, 212);
-    color: black;
-    padding: 5px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    border: solid;
+.navbutton {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: rgb(212, 212, 212);
-    min-width: 5px;
-    left: 0%;
-    border: solid;
-    cursor: crosshair;
-}
-
-.dropdown-menu a {
-    color: black;
-    padding: 5px 10px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-menu a:hover {
-    background-color: rgb(255, 255, 255);
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
+.navbutton, .nav{
+	font-family: "Orbitron"; 
+    box-shadow: 0px 0px 2px 2px rgb (0,0,0);
+    min-width: auto;
+    min-height: auto;
 }
 
 body {
@@ -65,47 +46,52 @@ body {
     padding: 0;
     height: 100vh;
     position: relative; /* Establishes a positioning context */
+    cursor: crosshair;
 }
 
 .map {
-    position: absolute; /* Enables absolute positioning */
-    top: 460px; /* Change this value to move the text box vertically */
-    left: 250px; /* Change this value to move the text box horizontally */
-    background-color:rgb(260, 259, 259);
     border: hidden;
+    width: 100%;
 }
 
 .newitems {
     position: absolute; /* Enables absolute positioning */
     top: 50px; /* Change this value to move the text box vertically */
-    left: 75%; /* Change this value to move the text box horizontally */
-    background-color:whitesmoke;
-    border-color:rgb(242, 255, 0);
-    border:solid;
-    width: 350px;
-    height: 300px;
-    padding: 10px
+    left: 78%; /* Change this value to move the text box horizontally */
+    background-color:rgb(71, 144, 253);
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 2px rgb (0,0,0);
+    text-shadow: 2px 2px 2px rgb(0, 68, 255);
+    border-style: dotted;
+}
+
+.logo {
+    position: absolute; /* Enables absolute positioning */
+    top: -175px; /* Change this value to move the text box vertically */
+    left: 80px; /* Change this value to move the text box horizontally */
+    border:none;
+    font-size: 200px;
+    color: green;
+    text-shadow: 5px 5px 5px gold;
 }
 
 .newitems {
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .stickytop {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-  }
-
-.stickynav {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    z-index:1000;
+    text-shadow: 1px 1px 1px rgb(251, 255, 0);
+    font-family: 'Playfair Display';
   }
 
 #warning {
     background-color: yellow;
+    font-family: 'Playfair Display';
 }
 
 #est {
@@ -119,6 +105,8 @@ body {
     height: max-content;
     text-align: left;
     margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    background-color: aliceblue;
 }
 
 .lomeinsection, .eggfooyoungsection, .sweetandsoursection, .porksection, .beefsection, .chickensection {
@@ -128,7 +116,10 @@ body {
     height: max-content;
     text-align: left;
     margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    background-color: aliceblue;
 }
+
 
 .seafoodsection, .traysection, .dietsection, .sidesection, .friedsection{
     border:3px solid;
@@ -137,6 +128,8 @@ body {
     height: max-content;
     text-align: left;
     margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    background-color: aliceblue;
 }
 
 .combosection{
@@ -146,6 +139,8 @@ body {
     height: max-content;
     text-align: left;
     margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    background-color: aliceblue;
 }
 
 .lunchcombosection {
@@ -155,6 +150,12 @@ body {
     height: max-content;
     text-align: left;
     margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    background-color: aliceblue;
+}
+
+.item{
+    font-family: 'Playfair Display';
 }
 
 table {
