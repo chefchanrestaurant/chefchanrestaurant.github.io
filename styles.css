@@ -57,10 +57,9 @@ body {
 .newitems {
     position: absolute; /* Enables absolute positioning */
     top: 50px; /* Change this value to move the text box vertically */
-    left: 78%; /* Change this value to move the text box horizontally */
+    left:80%;
+    min-height: 100px;
     background-color:rgb(71, 144, 253);
-    width: 300px;
-    height: 250px;
     padding: 10px;
     box-shadow: 0px 0px 2px 2px rgb (0,0,0);
     text-shadow: 2px 2px 2px rgb(0, 68, 255);
