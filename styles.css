@@ -25,6 +25,9 @@
     font-size:15px;   
 }
 
+.maps {
+    background-color: cadetblue;
+}
 
 .navbutton {
     position: fixed;
@@ -155,6 +158,11 @@ body {
 
 .item{
     font-family: 'Playfair Display';
+}
+
+.notice{
+    background-color: red;
+    font-size:50px;
 }
 
 table {
