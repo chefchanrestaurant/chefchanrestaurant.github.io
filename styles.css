@@ -5,9 +5,22 @@
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
+
+
 .font{
     font-family: 'Orbitron', sans-serif;
     text-shadow: 2px 2px 2px rgb(255, 85, 0);
+}
+
+.Remindersheader{
+    color:black;
+    background-color: rgb(255, 118, 118);
+    font-size: 40px;
+}
+
+.Reminders{
+    color:black;
+    font-size: 30px;
 }
 
 .hours {
