@@ -1,21 +1,40 @@
 .ccrfont {
     color: rgba(255, 55, 0, 0.737);
     font-family: 'Orbitron', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
 
 
 .font{
+    color: rgb(8, 71, 17);
     font-family: 'Orbitron', sans-serif;
-    text-shadow: 2px 2px 2px rgb(255, 85, 0);
+    font-size: 30px;
+}
+
+.logo {
+    position: absolute; /* Enables absolute positioning */
+    top: -175px; /* Change this value to move the text box vertically */
+    left: 80px; /* Change this value to move the text box horizontally */
+    border:none;
+    font-size: 200px;
+    color: rgb(0, 109, 0);
+    text-shadow: 5px 5px 5px gold;
 }
 
 .Remindersheader{
     color:black;
     background-color: rgb(255, 118, 118);
     font-size: 40px;
+    border:solid 1px;
+    border-radius: 15px;
+    border-width: 5px;
+    width: 800px;
+}
+
+.phone {
+    color:black;
 }
 
 .Reminders{
@@ -24,6 +43,7 @@
 }
 
 .hours {
+    font-size: 20px;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 183, 0);
     font-family: 'Orbitron', sans-serif;
@@ -40,6 +60,9 @@
 
 .maps {
     background-color: cadetblue;
+    border:solid 1px;
+    border-radius: 15px;
+    border-width: 3px;
 }
 
 .navbutton {
@@ -70,37 +93,11 @@ body {
     width: 100%;
 }
 
-.newitems {
-    position: absolute; /* Enables absolute positioning */
-    top: 50px; /* Change this value to move the text box vertically */
-    left:80%;
-    min-height: 100px;
-    background-color:rgb(71, 144, 253);
-    padding: 10px;
-    box-shadow: 0px 0px 2px 2px rgb (0,0,0);
-    text-shadow: 2px 2px 2px rgb(0, 68, 255);
-    border-style: dotted;
-}
-
-.logo {
-    position: absolute; /* Enables absolute positioning */
-    top: -175px; /* Change this value to move the text box vertically */
-    left: 80px; /* Change this value to move the text box horizontally */
-    border:none;
-    font-size: 200px;
-    color: green;
-    text-shadow: 5px 5px 5px gold;
-}
-
-.newitems {
-    border-radius: 30px;
-}
 
 .stickytop {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    text-shadow: 1px 1px 1px rgb(251, 255, 0);
     font-family: 'Playfair Display';
   }
 
