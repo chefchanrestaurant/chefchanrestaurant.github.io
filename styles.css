@@ -1,8 +1,8 @@
 .ccrfont {
     color: rgba(255, 55, 0, 0.737);
-    font-family: 'Orbitron', sans-serif;
-    font-size: 35px;
-    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    font-family: 'Cal Sans', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 
@@ -24,7 +24,7 @@
 }
 
 .autd {
-    font-size: 18px;
+    font-size: 25px;
     color: rgb(0, 72, 255);
 }
 
@@ -32,10 +32,9 @@
     color:black;
     background-color: rgba(255, 0, 0, 0.615);
     font-size: 40px;
-    border:solid 1px;
-    border-radius: 15px;
+    border-top:dashed 10px;
+    border-bottom:dashed 10px;
     border-width: 5px;
-    width: 800px;
 }
 
 .phone {
@@ -54,7 +53,16 @@
     font-family: 'Orbitron', sans-serif;
 }
 
-.navbutton, .nav, #backtotop{
+.navbutton{
+    background-color: #ff6726;
+    border-top:solid 1px;
+    border-bottom: solid 1px;
+    color:black;
+    padding:2px 20px;
+    font-size:15px;   
+}
+
+.nav, #backtotop{
     background-color: #ff6726;
     border:solid 1px;
     border-radius: 10px;
@@ -65,8 +73,8 @@
 
 .maps {
     background-color: cadetblue;
-    border:solid 1px;
-    border-radius: 15px;
+    border-top:solid 1px;
+    border-bottom: solid 1px;
     border-width: 3px;
 }
 
