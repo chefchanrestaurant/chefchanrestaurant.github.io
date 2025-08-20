@@ -1,4 +1,4 @@
-.ccrfont {
+#ccrfont {
     color: rgba(255, 55, 0, 0.737);
     font-family: 'Cal Sans', sans-serif;
     font-size: 40px;
@@ -13,19 +13,43 @@
     font-size: 30px;
 }
 
-.logo {
-    position: absolute; /* Enables absolute positioning */
-    top: -175px; /* Change this value to move the text box vertically */
-    left: 80px; /* Change this value to move the text box horizontally */
+
+.content-container{
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  align-items: flex-start !important;
+}
+
+.left{
+  width: 20%;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  border: none;
+}
+
+.left > *{
+  margin-block: 0 !important;
+  align-self: flex-start !important;
+}
+
+.right{
+    width: 90%;
+    display:flex;
+    border: #000000 3px solid;
     border:none;
-    font-size: 200px;
-    color: rgb(0, 109, 0);
-    text-shadow: 5px 5px 5px gold;
+    align-items: flex-start;
+    margin: 0 auto;
 }
 
 .autd {
     font-size: 25px;
-    color: rgb(0, 72, 255);
+    color: rgb(0, 37, 129);
 }
 
 .Remindersheader{
@@ -37,8 +61,15 @@
     border-width: 5px;
 }
 
+#logo {
+    font-size: 100px;
+    color: rgb(0, 109, 0);
+    text-shadow: 5px 5px 5px gold;
+}
+
 .phone {
     color:black;
+    font-size: 30px;
 }
 
 .Reminders{
