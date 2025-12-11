@@ -183,47 +183,16 @@ th {
     font-size:15px;   
 }
 
-.nav, #backtotop{
+.nav{
     color:black;
     padding:3px 9px;
-    font-size:15px;   
+    font-size:20px;   
     text-decoration: none;
-    background-color: #ff4d00;
+    font-family: "Orbitron"; 
+    background-color: rgba(0, 128, 0, 0.852);
+    border-radius: 10px;
 }
 
-.navbutton {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+.nav:hover{
+    background-color: rgba(0, 214, 0, 0.852);
 }
-
-.navbutton, .nav{
-	font-family: "Orbitron"; 
-    box-shadow: 0px 0px 2px 2px rgb (0,0,0);
-    min-width: auto;
-    min-height: auto;
-}
-
-
-.gamebutton {
-    background-color: rgb(194, 194, 194);
-    border: 2px solid black;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 3px;
-    margin: 3px;
-    font-size: 15px;
-}
-
-.gamebutton:hover {
-    background-color: rgb(240, 240, 240);
-    border: 2px dotted black;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 3px;
-    margin: 3px;
-    font-size: 15px;
-}
-
