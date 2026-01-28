@@ -199,7 +199,6 @@ th {
 
 .alert{
     width: 95%;
-    background-color: red;
     color: rgb(255, 255, 255);
     padding: 5px;
     margin-bottom: 10px;
@@ -208,3 +207,4 @@ th {
     text-align: center;
     border-radius: 15px;
 }
+
