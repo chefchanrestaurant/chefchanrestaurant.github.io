@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* ===== HEADER ===== */
+.header {
+    display: flex;
+    flex-wrap: wrap;            /* logo + nav stack vertically on small screens */
+    align-items: center;
+    justify-content: center;
+    background-color: #cacaca;
+    padding: 10px;
+    gap: 10px;
+}
+
+.background {
+    background-color: #1b5f00;
+}
+
+/* ===== LOGO ===== */
+.logo img {
+    height: 100px;              /* smaller on mobile */
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ===== HOURS ===== */
+.hours {
+    font-size: 14px;
+    text-align: center;
+    background-color: orange;
+    padding: 6px 10px;
+    line-height: 1.5;
+}
+
+/* ===== VIEW MENU BUTTON ===== */
+.view_menu_button {
+    font-family: "Michroma", sans-serif;
+    position: static;           /* remove absolute — it breaks on mobile */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    color: #154b00;
+    text-align: center;
+    margin: 12px 10px;
+    right: unset;
+}
+
+.view_menu_button a {
+    color: #154b00;
+    text-decoration: none;
+    font-size: 18px;            /* was 30px — too large for phone */
+}
+
+.view_menu_button a:hover,
+.view_menu_button a:active {
+    text-decoration: underline;
+}
+
+/* ===== ADDRESS & NUMBER ===== */
+.address_and_number {
+    margin: 16px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: "Michroma", sans-serif;
+    font-size: 15px;            /* was 18px — a touch large for narrow screens */
+    line-height: 1.6;
+}
+
+/* ===== ROUNDED COST BOX ===== */
+.rounded_cost {
+    margin: 16px;               /* was 40px — gives breathing room without wasting space */
+    padding: 16px;
+    text-align: center;
+    justify-content: center;
+    height: auto;               /* was fixed 400px — let content dictate height */
+    background-color: #2e9d01;
+    border-radius: 20px;
+    font-family: "Michroma", sans-serif;
+}
+
+/* ===== REMINDER BOX ===== */
+.reminder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 12px;
+    width: 95%;                 /* was fixed 600px — overflows on small phones */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* ===== TABLE ===== */
+th {
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;            /* was 25px — too large on phone */
+}
+
+td {
+    padding: 6px;
+    text-align: center;
+    font-size: 14px;            /* was 20px */
+}
+
+/* ===== DESKTOP RESTORE ===== */
+@media (min-width: 700px) {
+    .logo img {
+        height: 150px;
+    }
+
+    .view_menu_button {
+        position: absolute;
+        right: 150px;
+        margin-top: 30px;
+        gap: 50px;
+    }
+
+    .view_menu_button a {
+        font-size: 30px;
+    }
+
+    .address_and_number {
+        margin: 30px;
+        font-size: 18px;
+    }
+
+    .rounded_cost {
+        margin: 40px;
+        height: 400px;
+    }
+
+    .reminder {
+        width: 600px;
+    }
+
+    th {
+        padding: 10px;
+        font-size: 25px;
+    }
+
+    td {
+        padding: 8px;
+        font-size: 20px;
+    }
+}

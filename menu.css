@@ -1,0 +1,197 @@
+body{
+    margin:0;
+}
+
+.header{
+    display:flex;
+    background-color:#cacaca;
+    padding:none;
+
+}
+
+.background{
+    background-color: #bbd1b2;
+}
+
+.logo img{
+    font-family: "Michroma", sans-serif;
+    height: 150px;
+    width: auto;
+}
+
+.hours{
+    font-size: 15px;
+    text-align: center;
+    background-color: orange;
+    padding: 1px;
+}
+
+.menu_name{
+    font-family: "Michroma", sans-serif;
+    position:absolute;
+    right:150px;
+    display:flex;
+    gap:50px;
+    color:#154b00;
+    text-align: center;
+    font-size: 45px;
+}
+
+.stickytop {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-family: 'Playfair Display';
+    text-align: center;
+  }
+
+ .stickytop {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+ }
+
+ 
+ 
+.appsection, .soupsection, .ricesection, .chowmeinsection, .chopsueysection, .chowmeifunsection {
+    border:5px solid;
+    border-color: #1b5f00;
+    width: 75%;
+    height: max-content;
+    text-align: left;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #b3ff95;
+}
+
+.lomeinsection, .eggfooyoungsection, .sweetandsoursection, .porksection, .beefsection, .chickensection {
+    border:5px solid;
+    border-color: #1b5f00;
+    width: 75%;
+    height: max-content;
+    text-align: left;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #b3ff95;
+}
+
+
+.seafoodsection, .traysection, .dietsection, .sidesection, .friedsection{
+    border:5px solid;
+    border-color: #1b5f00;
+    width: 75%;
+    height: max-content;
+    text-align: left;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #b3ff95;
+}
+
+.combosection, .lunchcombosection{
+    border:5px solid;
+    border-color: #1b5f00;
+    width: 75%;
+    height: max-content;
+    text-align: left;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #b3ff95;
+}
+
+.item{
+    font-family: 'Playfair Display';
+}
+
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+th {
+    background-color: #2e9d01;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.nav{
+    background-color: #2d9d01ae;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-align: center;
+    border-radius: 4px;
+    margin:10px;
+    text-decoration: none;
+    color:black;
+}
+
+.nav:hover{
+    background-color: #258201;
+}
+
+
+.please_note{
+    text-align: center;
+    background-color: #258201;
+    padding: 10px;
+}
+
+@media (max-width: 699px) {
+    .header {
+        display: flex;
+        flex-direction: column;     /* stack logo and menu_name vertically */
+        align-items: center;        /* center both */
+        background-color: #cacaca;
+        padding: 10px;
+    }
+
+    .logo img{
+    font-family: "Michroma", sans-serif;
+    height: 120px;
+    width: auto;
+    }
+
+    .menu_name {
+        font-family: "Michroma", sans-serif;
+        position: static;           /* remove absolute */
+        display: flex;
+        gap: 50px;
+        color: #154b00;
+        text-align: center;
+        font-size: 30px;
+    }
+ 
+    .appsection, .soupsection, .ricesection, .chowmeinsection, .chopsueysection, .chowmeifunsection,
+    .lomeinsection, .eggfooyoungsection, .sweetandsoursection, .porksection, .beefsection, .chickensection,
+    .seafoodsection, .traysection, .dietsection, .sidesection, .friedsection,
+    .combosection, .lunchcombosection {
+        width: 95%;
+        font-size: 12px;
+    }
+ 
+    td, th {
+        font-size: 12px;
+        padding: 4px;
+    }
+ 
+    .nav {
+        font-size: 11px;
+        padding: 4px 6px;
+        margin: 4px;
+    }
+ 
+    .hours {
+        font-size: 13px;
+    }
+ 
+    .please_note {
+        font-size: 13px;
+    }
+}
+ 

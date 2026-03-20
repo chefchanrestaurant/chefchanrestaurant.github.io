@@ -1,0 +1,101 @@
+body{
+    margin:0;
+}
+
+.header{
+    display:flex;
+    background-color:#cacaca;
+    padding:none;
+
+}
+
+.background{
+    background-color: #1b5f00;
+}
+
+.logo img{
+    font-family: "Michroma", sans-serif;
+    height: 150px;
+    width: auto;
+}
+
+.hours{
+    font-size: 15px;
+    text-align: center;
+    background-color: orange;
+    padding: 1px;
+}
+
+.select_menu_layout{
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: "Michroma", sans-serif;
+    font-size: 18px;
+}
+
+.layouts{
+    display: flex;
+    justify-content: center;
+}
+
+.layout{
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Michroma", sans-serif;
+    font-size: 18px;
+    background-color: #2e9d01;
+    padding: 15px;
+    height: auto;
+}
+
+.secret{
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Michroma", sans-serif;
+    font-size: 18px;
+    background-color: #ff6644;
+    padding: 15px;
+    height: auto;
+}
+
+@media (max-width: 699px) {
+    .header {
+        display: flex;
+        flex-direction: column;     /* stack logo and menu_name vertically */
+        align-items: center;        /* center both */
+        background-color: #cacaca;
+        padding: 10px;
+    }
+
+    .logo img{
+    font-family: "Michroma", sans-serif;
+    height: 120px;
+    width: auto;
+    }
+
+    .rick img{
+    height: 200px;
+    width: auto;
+    }
+
+    .layouts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .layout {
+        margin: 15px;
+        text-align: center;
+        border-radius: 10px;
+        font-family: "Michroma", sans-serif;
+        font-size: 18px;
+        background-color: #2e9d01;
+        padding: 15px;
+        height: auto;
+        width: 90%;
+    }
+}
