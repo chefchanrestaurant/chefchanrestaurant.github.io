@@ -15,7 +15,7 @@ body {
 }
 
 .background {
-    background-color: #1b5f00;
+    background-color: #bbd1b2;
 }
 
 /* ===== LOGO ===== */
@@ -43,14 +43,14 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
-    color: #154b00;
+    color: #000000;
     text-align: center;
     margin: 12px 10px;
     right: unset;
 }
 
 .view_menu_button a {
-    color: #154b00;
+    color: #000000;
     text-decoration: none;
     font-size: 18px;            /* was 30px — too large for phone */
 }
